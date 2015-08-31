@@ -1,10 +1,11 @@
 void setup()
 {
-	noLoop();
+	size(400,400);
 }
 void draw()
 {
-	//your code here
+	background(255);
+	die.show();
 }
 void mousePressed()
 {
@@ -23,6 +24,6 @@ class Die //models one single dice cube
 	}
 	void show()
 	{
-		//your code here
+		
 	}
 }
