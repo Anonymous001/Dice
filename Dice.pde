@@ -1,12 +1,14 @@
+Die die;
 void setup()
 {
 	size(400,400);
 	noLoop();
+	die = new Die(50,50);
 }
 void draw()
 {
 	background(255);
-	die.show();
+	Die.show();
 }
 void mousePressed()
 {
