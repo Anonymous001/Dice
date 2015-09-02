@@ -31,24 +31,24 @@ class Die //models one single dice cube
 	{
 		int diceNum = (int)(Math.random*6+1);
 		fill(0,0,0);
+		rect(myX,myY,50,50);
 		if (diceNum == 1){
-			rect(myX,myY,50,50)
 			ellipse(myX + 25, myY -25, 5, 5);
 		}
 		if (diceNum == 2){
-			rect(myX,myY,50,50)
+			ellipse(myX + 25, myY -25, 5, 5);
 		}
 		if (diceNum == 3){
-			rect(myX,myY,50,50)
+			ellipse(myX + 25, myY -25, 5, 5);
 		}
 		if (diceNum == 4){
-			rect(myX,myY,50,50)
+			ellipse(myX + 25, myY -25, 5, 5);
 		}
 		if (diceNum == 5){
-			rect(myX,myY,50,50)
+			ellipse(myX + 25, myY -25, 5, 5);
 		}
 		if (diceNum == 6){
-			rect(myX,myY,50,50)
+			ellipse(myX + 25, myY -25, 5, 5);
 		}
 	}
 }
