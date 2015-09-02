@@ -7,6 +7,7 @@ void draw()
 {
 	background(255);
 	die.show();
+	noLoop();
 }
 void mousePressed()
 {
