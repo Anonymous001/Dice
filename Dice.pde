@@ -30,7 +30,7 @@ class Die //models one single dice cube
 	}
 	void show()
 	{
-		diceNum = (int)(Math.random*6+1)
+		diceNum = (int)(Math.random*6+1);
 		if (diceNum == 1){
 			rect(myX,myY,50,50)
 		}
