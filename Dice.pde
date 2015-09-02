@@ -7,7 +7,6 @@ void draw()
 {
 	background(255);
 	die.show();
-	noLoop();
 }
 void mousePressed()
 {
@@ -30,7 +29,7 @@ class Die //models one single dice cube
 	}
 	void show()
 	{
-		int diceNum = (int)(Math.random*6+1);
+		int diceNum = (int)(Math.random()*6+1);
 		fill(0,0,0);
 		rect(myX,myY,50,50);
 		if (diceNum == 1){
