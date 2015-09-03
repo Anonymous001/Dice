@@ -8,11 +8,12 @@ void setup()
 void draw()
 {
 	background(100);
-	die.show();
 	for(int i=0; i<400; i+=60)
 	{
 		Die cube = new Die(i,50);	
-	]
+	}
+	die.show();
+	
 }
 void mousePressed()
 {
