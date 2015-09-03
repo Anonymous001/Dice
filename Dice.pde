@@ -10,9 +10,10 @@ void draw()
 	background(100);
 	for(int i=0; i<400; i+=60)
 	{
-		Die cube = new Die(i,50);	
+		Die cube = new Die(i,50);
+		die.show();	
 	}
-	die.show();
+	
 	
 }
 void mousePressed()
