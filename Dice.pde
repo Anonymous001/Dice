@@ -7,7 +7,7 @@ void setup()
 }
 void draw()
 {
-	background(255);
+	background(100);
 	die.show();
 }
 void mousePressed()
