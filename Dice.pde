@@ -38,10 +38,10 @@ class Die //models one single dice cube
 	void show()
 	{
 		int diceNum = (int)(Math.random()*6+1);
-		fill(x,y,0);
+		fill(0,0,0);
 		rect(myX,myY,50,50);
 		if (diceNum == 1){
-			fill(0,x,y);
+			
 			ellipse(myX + 25, myY + 25, 5, 5);
 		}
 		if (diceNum == 2){
