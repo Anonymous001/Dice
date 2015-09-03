@@ -11,7 +11,7 @@ void draw()
 	for(int i=0; i<400; i+=60)
 	{
 		Die cube = new Die(i,50);
-		die.show();	
+		cube.show();	
 	}
 	
 	
